@@ -1,4 +1,10 @@
 # yamdb_final
 yamdb_final
 
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+# Краткое описание
+Этот API позволяет пользователям писать обзоры произведения в разных жанрах и категориях, а так же комментировать обзоры других пользователей. Так же по запросу можно получить список отсортированных произведений, обзоров или комментариев по какому-то критерию. Информация по тому, как формулировать запрос, можно получить по ссылке: 
+
+# IP Сервера
+Сервер доступен по адресу: http://84.201.135.94
+
+![workflow status](https://github.com/anderdog0306/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
