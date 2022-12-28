@@ -7,4 +7,4 @@ yamdb_final
 # IP Сервера
 Сервер доступен по адресу: http://84.201.135.94
 
-![workflow status](https://github.com/anderdog0306/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![workflow status](https://github.com/Ander-dog/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
