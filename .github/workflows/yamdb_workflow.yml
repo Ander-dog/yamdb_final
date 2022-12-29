@@ -59,10 +59,8 @@ jobs:
         passphrase: ${{ secrets.SERVER_PASSPHRASE }}
         script: |
           sudo docker-compose stop
-          sudo docker-compose rm web
-          y
-          wait
-          sudo docker rmi anderdog0306/yamdb-web:latest
+          sudo sudo docker rm ${{ secrets.DOCKERHUB_USERNAME }}_web_1
+          sudo docker rmi ${{ secrets.DOCKERHUB_USERNAME }}/yamdb-web:latest
           rm .env
           touch .env
           echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
