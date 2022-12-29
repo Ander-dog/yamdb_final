@@ -139,8 +139,5 @@ class TokenSerializer(serializers.Serializer):
             raise serializers.ValidationError('Неправильный код подтверждения')
 
         token = AccessToken.for_user(user)
-        response_data = {
-            'token': str(token)
-        }
 
-        return response_data
+        return {'token': str(token)}
